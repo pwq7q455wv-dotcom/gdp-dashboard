@@ -123,3 +123,13 @@ while True:
         df["Long_MA"] = df["Close"].rolling(LONG_WINDOW).mean()
         st.line_chart(df[['Close','Short_MA','Long_MA']].tail(100))
     time.sleep(refresh_interval)
+ALPACA_API_KEY
+ALPACA_SECRET
+OPENAI_API_KEY
+NEWSAPI_KEY
+TELEGRAM_TOKEN
+TELEGRAM_CHAT_ID
+TICKER=AAPL
+SHORT_WINDOW=5
+LONG_WINDOW=20
+MAX_POSITION=10

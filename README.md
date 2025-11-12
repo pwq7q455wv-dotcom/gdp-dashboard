@@ -1,19 +1,22 @@
-# :earth_americas: GDP dashboard template
+# AI Trading Bot
 
-A simple Streamlit app showing the GDP of different countries in the world.
+## Deployment
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+1. Go to [Streamlit Cloud](https://streamlit.io/cloud)
+2. Click "New App" → Connect GitHub → Select this repo → Branch `main` → File `main.py`
+3. Add **Secrets** in Streamlit Cloud:
 
-### How to run it on your own machine
+ALPACA_API_KEY  
+ALPACA_SECRET  
+OPENAI_API_KEY  
+NEWSAPI_KEY  
+TELEGRAM_TOKEN  
+TELEGRAM_CHAT_ID  
+TICKER=AAPL  
+SHORT_WINDOW=5  
+LONG_WINDOW=20  
+MAX_POSITION=10  
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+4. Click **Deploy**  
+5. Open the URL in Safari on your iPhone → **Share → Add to Home Screen**
+6. Enable Auto Trading in the sidebar
